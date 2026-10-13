@@ -1,0 +1,167 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+/* header start */
+header nav .logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    border-bottom: 2px solid rgb(255, 255green, 255blue,0.06) ;
+}
+
+
+header nav {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+
+}
+nav ul{list-style:none ;
+    display: flex;
+    column-gap: 30px;
+
+}
+.menu li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.menu ul li a{
+    font-size: 30px;
+    color:white ;
+    text-decoration: none;
+    transition:color .25s ease ;
+
+}
+.menu ul li a:hover{
+    color:#014088b6 ;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+.menu li i{
+    color:#b7d7e8 ;
+    font-size: 60px;
+    transition:all ease-in-out 250ms ;
+}
+
+   
+/* header end */
+
+
+
+
+/* body start */
+body{
+    height: 2000px;
+    background-image:url(img/mathematics-3821034_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+/* body kontakt start */
+
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.box li a{
+    font-size: 30px;
+    color:black ;
+}
+.box li i{
+    color: rgb(21, 208, 214) ;
+    font-size: 60px;
+    transition:all ease-in-out 250ms ;
+}
+.box li a:hover{
+    color:rgba(18, 183, 233, 0.884) ;
+}
+/* body kontakt end */
+
+
+
+/* body überuns start */
+.CV{position: relative;
+    font-size: large;
+    z-index: 1;
+    width: 500px;
+    height:900px ;
+    background-color: aliceblue;
+    padding: 40px;
+    text-align: center;
+    margin:auto;
+    margin-top: 100px;
+    color: rgba(18, 183, 233, 0.884);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.überuns .CV img{
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.überuns .CV img:hover{
+    transform: scale(0.9);
+}
+
+.CV2 ul{
+    list-style: none;
+}
+.überuns h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.überuns h3{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.überuns p{text-align: justify;}
+ul{ margin: 0;
+    padding: 0;
+
+}
+/* body überuns end */
+/* body end */
+
+
+/* responsive start */
+@media(max-width:576px) {
+    .container{
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menu ul{
+        column-gap: 20px;
+    }
+  
+
+}
+/* responsive end */
